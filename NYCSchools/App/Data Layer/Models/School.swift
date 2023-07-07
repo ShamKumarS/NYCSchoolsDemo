@@ -1,3 +1,10 @@
+//
+//  School.swift
+//  NYCSchools
+//
+//  Created by Rolan on 8/8/22.
+//
+
 import Foundation
 
 struct School: Decodable {

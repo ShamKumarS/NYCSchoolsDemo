@@ -1,14 +1,21 @@
+//
+//  File.swift
+//  NYCSchools
+//
+//  Created by Rolan on 8/9/22.
+//
+
 import Foundation
 
 class SchoolsViewModel {
-    
-    // MARK: - Private Properties
-    
     private(set) var schools: [School] = []
     private(set) var error: DataError? = nil
-    private let apiService: SchoolAPILogic = SchoolAPI()
     
-    // MARK: - Private Methods
+    private let apiService: SchoolAPILogic
+    
+    init(apiService: SchoolAPILogic = SchoolAPI()) {
+        self.apiService = apiService
+    } 
     
     func getSchools(completion: @escaping( ([School]?, DataError?) -> () ) ) {
         apiService.getSchools { [weak self] result in
@@ -18,7 +25,7 @@ class SchoolsViewModel {
                 completion(schools, nil)
             case .failure(let error):
                 self?.error = error
-                completion([], error)
+                completion(nil, error)
             }
         }
     }
