@@ -183,16 +183,127 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5EA498F1-9B74-4723-AB3C-2A788317E803"
+            uuid = "8BABB1CD-D510-45C3-A8AC-84165BEFE4D3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NYCSchools/App/UI Layer/View Models/SchoolsViewModel.swift"
+            filePath = "NYCSchoolsTests/NYCSchoolsTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "getSchools(completion:)"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testGettingSchoolsWithMockEmptyResult()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BABB1CD-D510-45C3-A8AC-84165BEFE4D3 - 20f51987034a0bc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;NYCSchools.School&gt;&gt;, Swift.Optional&lt;NYCSchools.DataError&gt;) -&gt; () in NYCSchoolsTests.NYCSchoolsTests.testGettingSchoolsWithMockEmptyResult() -&gt; ()"
+                  moduleName = "NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolan/Desktop/iOS_Course_Projects/NYCSchools/NYCSchoolsTests/NYCSchoolsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "8BABB1CD-D510-45C3-A8AC-84165BEFE4D3 - 20f51987034a0b02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;NYCSchools.School&gt;&gt;, Swift.Optional&lt;NYCSchools.DataError&gt;) -&gt; () in NYCSchoolsTests.NYCSchoolsTests.testGettingSchoolsWithMockEmptyResult() -&gt; ()"
+                  moduleName = "NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolan/Desktop/iOS_Course_Projects/NYCSchools/NYCSchoolsTests/NYCSchoolsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25082242-2D9D-4CE8-A32D-0C30F3CDE57E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYCSchoolsTests/NYCSchoolsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testGettingSchoolsWithMockEmptyResult()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25082242-2D9D-4CE8-A32D-0C30F3CDE57E - 61a6efe5aa97d897"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NYCSchoolsTests.NYCSchoolsTests.testGettingSchoolsWithMockEmptyResult() -&gt; ()"
+                  moduleName = "NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolan/Desktop/iOS_Course_Projects/NYCSchools/NYCSchoolsTests/NYCSchoolsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "25082242-2D9D-4CE8-A32D-0C30F3CDE57E - 61a6efe5aa97d9c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NYCSchoolsTests.NYCSchoolsTests.testGettingSchoolsWithMockEmptyResult() -&gt; ()"
+                  moduleName = "NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolan/Desktop/iOS_Course_Projects/NYCSchools/NYCSchoolsTests/NYCSchoolsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "550">
+               </Location>
+               <Location
+                  uuid = "25082242-2D9D-4CE8-A32D-0C30F3CDE57E - 61a6efe5aa97d9c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NYCSchoolsTests.NYCSchoolsTests.testGettingSchoolsWithMockEmptyResult() -&gt; ()"
+                  moduleName = "NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolan/Desktop/iOS_Course_Projects/NYCSchools/NYCSchoolsTests/NYCSchoolsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "543">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19B889C7-941A-4E89-AD0B-99D2E1489AAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYCSchoolsTests/NYCSchoolsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "testGettingSchoolsWithErrorResult()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

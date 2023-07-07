@@ -1,8 +1,13 @@
+//
+//  ViewController.swift
+//  NYCSchools
+//
+//  Created by Rolan on 8/1/22.
+//
+
 import UIKit
 
 class ViewController: UIViewController {
-
-    // MARK: - Private Properties
     
     private let schoolsViewModel: SchoolsViewModel = SchoolsViewModel()
     
@@ -10,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
         schoolsViewModel.getSchools { [weak self] (schools, error) in
             if let error = error {
                 let alert = UIAlertController(title: "Error",
@@ -29,4 +35,3 @@ class ViewController: UIViewController {
         }
     }
 }
-

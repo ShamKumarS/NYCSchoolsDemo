@@ -19,6 +19,8 @@
 		2C7C4CAC289890F600860F05 /* NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C4CAB289890F600860F05 /* NYCSchoolsUITests.swift */; };
 		2C7C4CAE289890F600860F05 /* NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C4CAD289890F600860F05 /* NYCSchoolsUITestsLaunchTests.swift */; };
 		2CA789FA28A2F0D000274FE8 /* SchoolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA789F928A2F0D000274FE8 /* SchoolsViewModel.swift */; };
+		2CB6931A28A38043007E46D8 /* MockSchoolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB6931928A38043007E46D8 /* MockSchoolAPI.swift */; };
+		2CB6931C28A380B0007E46D8 /* SchoolListLoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB6931B28A380B0007E46D8 /* SchoolListLoadState.swift */; };
 		2CE02BA428A17F65009C94FA /* SchoolDirectoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE02BA328A17F65009C94FA /* SchoolDirectoryAPI.swift */; };
 		7CCD202E13465AD4734C96D0 /* Pods_NYCSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81804BD2E2B203991EFB043 /* Pods_NYCSchools.framework */; };
 		8BC27D014797DFF253D98B2E /* Pods_NYCSchools_NYCSchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309D7DC55C03C0EDC97944F5 /* Pods_NYCSchools_NYCSchoolsUITests.framework */; };
@@ -61,6 +63,8 @@
 		2C7C4CAD289890F600860F05 /* NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2CA1C52D692E385A36183B1A /* Pods-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-NYCSchoolsTests/Pods-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		2CA789F928A2F0D000274FE8 /* SchoolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewModel.swift; sourceTree = "<group>"; };
+		2CB6931928A38043007E46D8 /* MockSchoolAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSchoolAPI.swift; sourceTree = "<group>"; };
+		2CB6931B28A380B0007E46D8 /* SchoolListLoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListLoadState.swift; sourceTree = "<group>"; };
 		2CE02BA328A17F65009C94FA /* SchoolDirectoryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDirectoryAPI.swift; sourceTree = "<group>"; };
 		309D7DC55C03C0EDC97944F5 /* Pods_NYCSchools_NYCSchoolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCSchools_NYCSchoolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C3A8DDBEED8B2D99697771 /* Pods-NYCSchools-NYCSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchools-NYCSchoolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYCSchools-NYCSchoolsUITests/Pods-NYCSchools-NYCSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2C4196F928A18F85009379A1 /* School.swift */,
+				2CB6931B28A380B0007E46D8 /* SchoolListLoadState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				2C7C4CA1289890F600860F05 /* NYCSchoolsTests.swift */,
+				2CB6931928A38043007E46D8 /* MockSchoolAPI.swift */,
 			);
 			path = NYCSchoolsTests;
 			sourceTree = "<group>";
@@ -495,6 +501,7 @@
 				2CA789FA28A2F0D000274FE8 /* SchoolsViewModel.swift in Sources */,
 				2C7C4C8F289890F400860F05 /* ViewController.swift in Sources */,
 				2C7C4C8B289890F400860F05 /* AppDelegate.swift in Sources */,
+				2CB6931C28A380B0007E46D8 /* SchoolListLoadState.swift in Sources */,
 				2CE02BA428A17F65009C94FA /* SchoolDirectoryAPI.swift in Sources */,
 				2C7C4C8D289890F400860F05 /* SceneDelegate.swift in Sources */,
 			);
@@ -504,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB6931A28A38043007E46D8 /* MockSchoolAPI.swift in Sources */,
 				2C7C4CA2289890F600860F05 /* NYCSchoolsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
